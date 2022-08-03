@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Digital project</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="logo">
+          <a href="index.html">
+            <img src="src/logo.svg" alt="Logo" />
+          </a>
+        </div>
+        <ul class="header-list">
+          <li class="header-list__item">
+            <a href="#" class="header-list__item-link">Главная</a>
+          </li>
+          <li class="header-list__item">
+            <a href="#" class="header-list__item-link">Галерея</a>
+          </li>
+          <li class="header-list__item">
+            <a href="#" class="header-list__item-link">Проекты</a>
+          </li>
+          <li class="header-list__item">
+            <a href="#" class="header-list__item-link">Сертификаты</a>
+          </li>
+          <li class="header-list__item">
+            <a href="#" class="header-list__item-link">Контакты</a>
+          </li>
+        </ul>
+      </header>
+
+      <section class="intro">
+        <div class="intro-info">
+          <h1 class="intro-info__title">
+            Project<br />
+            <span>Nurtown</span>
+          </h1>
+          <div class="intro-slider__btns">
+            <button class="intro-slider__btns-prev">
+              <img src="src/arrow-left.svg" />
+            </button>
+            <button class="intro-slider__btns-next">
+              <img src="src/arrow-right.svg" />
+            </button>
+          </div>
+          <div class="intro-slider__numbers">
+            <h3 class="intro-slider__numbers-current">01</h3>
+            <img src="src/line.png" />
+            <h3 class="intro-slider__numbers-total">02</h3>
+          </div>
+        </div>
+        <div class="intro-slider">
+          <div class="intro-slider__item" id="slide">
+            <img src="src/slider_img.jpg" alt="Slider image" />
+            <a href="#" class="intro-slider__item-link">
+              Взглянуть
+              <img src="src/arrow-right.svg" />
+            </a>
+          </div>
+          <div class="intro-slider__item" id="slide">
+            <img src="src/slider_img_1.jpg" alt="Slider image" />
+            <a href="#" class="intro-slider__item-link">
+              Взглянуть
+              <img src="src/arrow-right.svg" />
+            </a>
+          </div>
+          <div class="intro-slider__item" id="slide">
+            <img src="src/slider_img_2.jpg" alt="Slider image" />
+            <a href="#" class="intro-slider__item-link">
+              Взглянуть
+              <img src="src/arrow-right.svg" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
